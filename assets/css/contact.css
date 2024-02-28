@@ -1,0 +1,79 @@
+.main-contact{
+    display: flex;
+    margin: 5rem auto;
+    max-width: 70vw;
+}
+
+.contact-group {
+    width: 40%;
+}
+
+.address {
+    background-color: white;
+    box-shadow: 4px 4px 30px #c9c8c8;
+    width: 80%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.icon-bg {
+    background-color: #f0f2f2;
+    border-radius: 100%;
+    padding: 20px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-bg {
+    color: red;
+    font-size: 2rem;
+}
+
+.address h1 {
+    font-size: 1.5rem;
+}
+
+.form-group {
+    background-color: #f0f2f2;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 60%;
+
+}
+
+.input-field {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.input-field input {
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.form-group textarea {
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    margin-top: 1rem;
+}
+.form-group .submit {
+    padding: 8px 12px;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    margin-top: 1rem;
+    color: white;
+    font-weight: 600;
+}
