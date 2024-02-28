@@ -1201,7 +1201,7 @@ Sidebar Modal
 Main Banner Area
 ====================================*/
 .banner-area {
-  background-image: url(../img/custom/banner1.jpg);
+  background-image: url(../img/custom/banner5.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2738,7 +2738,7 @@ Room Area
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.room-card:hover a img {
+.room-card:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -2748,9 +2748,11 @@ Room Area
   overflow: hidden;
 }
 
-.room-card a img {
+.room-card img {
   -webkit-transition: 0.7s;
   transition: 0.7s;
+  width: 100%;
+  height: 312px;
 }
 
 .room-card .content {
@@ -2780,6 +2782,12 @@ Room Area
   margin-right: 20px;
   position: relative;
   font-weight: 600;
+}
+
+.room-card .content span{
+  font-size: 12px;
+  color: #B56952;
+  margin-left: 6px;
 }
 
 .room-card .content ul li:last-child {
