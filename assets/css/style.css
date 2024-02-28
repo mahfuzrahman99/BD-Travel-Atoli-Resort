@@ -1237,10 +1237,9 @@ Main Banner Area
   color: #292323;
 }
 
-.banner-content p {
-  font-size: 18px;
+.banner-content h3 {
   margin-bottom: 30px;
-  color: #292323;
+  color: white;
 }
 
 .banner-area-three {
@@ -2624,18 +2623,13 @@ Specialty Area
 .specialty-img::before {
   content: '';
   position: absolute;
+  top: -40px;
+  left: -70px;
+  width: 80%;
+  height: 110%;
+  background-color: #F5F5F5;
   z-index: -1;
-  top: 30px;
-  left: -30px;
-  background-image: url(../img/specialty/specialty-img2.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 90%;
   border-radius: 50px;
-  -webkit-filter: brightness(0.7);
-          filter: brightness(0.7);
 }
 
 .specialty-img img {

@@ -1055,4 +1055,16 @@
 .theme-dark .footer-bg {
   background-color: #0a0808;
 }
+
+.theme-dark .about-banner-content h1 {
+  color: wheat;
+}
+
+.theme-dark .about-banner-content h4 {
+  color: #B56952;
+}
+
+.theme-dark .about-banner-content p {
+  color: whitesmoke;
+}
 /*# sourceMappingURL=theme-dark.css.map */
